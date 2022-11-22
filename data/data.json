@@ -174,8 +174,8 @@
       "level": "low",
       "description": "A rétegfelhő szürke, jellegtelen felhőréteg, egyenletes felhőalappal, általában nagy horizontális kiterjedésű rétegként van jelen a felszínhez közel, alacsony magasságban. A Stratus felhőzet tipikus megjelenésekor csak homogén szürkeséget látunk az égen, ilyenkor egyhangú, párás, ködös időjárás a jellemző. Tulajdonképpen a köd is Stratus felhő, mely egészen a felszínig leér, vagy éppenséggel pont közvetlen a felszín felett alakul ki.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/st_6_1_s.jpg",
+      "image_large": "/data/img/st_6_1_l.jpg",
       "code": [
         6,
         0,
@@ -188,8 +188,8 @@
       "level": "low",
       "description": "A rétegfelhő szürke, jellegtelen felhőréteg, egyenletes felhőalappal, általában nagy horizontális kiterjedésű rétegként van jelen a felszínhez közel, alacsony magasságban. A Stratus felhőzet tipikus megjelenésekor csak homogén szürkeséget látunk az égen, ilyenkor egyhangú, párás, ködös időjárás a jellemző. Tulajdonképpen a köd is Stratus felhő, mely egészen a felszínig leér, vagy éppenséggel pont közvetlen a felszín felett alakul ki.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/st_6_2_s.jpg",
+      "image_large": "/data/img/st_6_2_l.jpg",
       "code": [
         6,
         0,
@@ -202,8 +202,8 @@
       "level": "low",
       "description": "A tépett rétegfelhő felszín közelében elhelyezkedő, elkülönült részekből álló, szabálytalan alakú szakadozott felhőzet. Sebesen mozognak, az egyes felhőelemek körvonalai folyamatosan és hirtelen változnak. Az egyenletes rétegfelhőzet, a köd felszakadozása nyomán alakul ki, vagy csapadékhullással egyidejűleg lépnek fel. Ez utóbbi esetben Altostratus vagy Nimbostratus felhőzet alatt képződik, de Cumulonimbus és Cumulus congestus alatt is előfordul.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/st_7_1_s.jpg",
+      "image_large": "/data/img/st_7_1_l.jpg",
       "code": [
         7,
         0,
@@ -216,12 +216,12 @@
       "level": "low",
       "description": "A tépett rétegfelhő felszín közelében elhelyezkedő, elkülönült részekből álló, szabálytalan alakú szakadozott felhőzet. Sebesen mozognak, az egyes felhőelemek körvonalai folyamatosan és hirtelen változnak. Az egyenletes rétegfelhőzet, a köd felszakadozása nyomán alakul ki, vagy csapadékhullással egyidejűleg lépnek fel. Ez utóbbi esetben Altostratus vagy Nimbostratus felhőzet alatt képződik, de Cumulonimbus és Cumulus congestus alatt is előfordul.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/st_7_2_s.jpg",
+      "image_large": "/data/img/st_7_2_l.jpg",
       "code": [
         7,
-        0,
-        0
+        3,
+        9
       ]
     },
     {
@@ -230,11 +230,11 @@
       "level": "low",
       "description": "Az esőrétegfelhő szürke, gyakran sötét, nagy vízszintes és függőleges kiterjedésű felhőréteg, amelynek alapját a folytonosan hulló eső vagy hó erősen elmosódottá teszi. Olyan vastag, hogy a Napot teljesen eltakarja. Alatta gyakran jelennek meg alacsonyan úszó, szakadozott felhőfoszlányok. A Nimbostratus jellegében leginkább az Altostratushoz hasonlít, de annál jóval vastagabb. Mindig kiterjed az egész középszintre, azaz a 2 és 6 km közötti magasságra, a felhő alapja azonban kétezer méter alá süllyed.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ns_8_1_s.jpg",
+      "image_large": "/data/img/ns_8_1_l.jpg",
       "code": [
-        8,
         0,
+        2,
         0
       ]
     },
@@ -244,11 +244,11 @@
       "level": "low",
       "description": "Az esőrétegfelhő szürke, gyakran sötét, nagy vízszintes és függőleges kiterjedésű felhőréteg, amelynek alapját a folytonosan hulló eső vagy hó erősen elmosódottá teszi. Olyan vastag, hogy a Napot teljesen eltakarja. Alatta gyakran jelennek meg alacsonyan úszó, szakadozott felhőfoszlányok. A Nimbostratus jellegében leginkább az Altostratushoz hasonlít, de annál jóval vastagabb. Mindig kiterjed az egész középszintre, azaz a 2 és 6 km közötti magasságra, a felhő alapja azonban kétezer méter alá süllyed.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ns_8_2_s.jpg",
+      "image_large": "/data/img/ns_8_2_l.jpg",
       "code": [
-        8,
         0,
+        2,
         0
       ]
     },
@@ -258,8 +258,8 @@
       "level": "middle",
       "description": "Az áttetsző lepelfelhő színe szürkés vagy kékes, barázdált, a felhőréteg rostos vagy egyenletes szerkezetű, gyakran elmosódott kontúrokkal. Sokszor teljes egészében beborítja az eget és vastagsága, azaz vertikális kiterjedése is általában több száz vagy néhány ezer méter lehet. A Nap vagy Hold fényét tejüveg-szerűen átengedi, az égitestek szélei azonban elmosódottak maradnak.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/as_1_1_s.jpg",
+      "image_large": "/data/img/as_1_1_l.jpg",
       "code": [
         0,
         1,
@@ -272,10 +272,10 @@
       "level": "middle",
       "description": "Az áttetsző lepelfelhő színe szürkés vagy kékes, barázdált, a felhőréteg rostos vagy egyenletes szerkezetű, gyakran elmosódott kontúrokkal. Sokszor teljes egészében beborítja az eget és vastagsága, azaz vertikális kiterjedése is általában több száz vagy néhány ezer méter lehet. A Nap vagy Hold fényét tejüveg-szerűen átengedi, az égitestek szélei azonban elmosódottak maradnak.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/as_1_2_s.jpg",
+      "image_large": "/data/img/as_1_2_l.jpg",
       "code": [
-        0,
+        1,
         1,
         0
       ]
@@ -286,8 +286,8 @@
       "level": "middle",
       "description": "A lepelfelhő színe szürkés vagy kékes, barázdált, a felhőréteg rostos vagy egyenletes szerkezetű, gyakran elmosódott kontúrokkal. Sokszor teljes egészében beborítja az eget és vastagsága, azaz vertikális kiterjedése is általában több száz vagy néhány ezer méter lehet. A Nap vagy Hold fényét nem engedi át, annál vastagabb.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/as_2_1_s.jpg",
+      "image_large": "/data/img/as_2_1_l.jpg",
       "code": [
         0,
         2,
@@ -300,10 +300,10 @@
       "level": "middle",
       "description": "A lepelfelhő színe szürkés vagy kékes, barázdált, a felhőréteg rostos vagy egyenletes szerkezetű, gyakran elmosódott kontúrokkal. Sokszor teljes egészében beborítja az eget és vastagsága, azaz vertikális kiterjedése is általában több száz vagy néhány ezer méter lehet. A Nap vagy Hold fényét nem engedi át, annál vastagabb.",
       "precipitation": true,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/as_2_2_s.jpg",
+      "image_large": "/data/img/as_2_2_l.jpg",
       "code": [
-        0,
+        7,
         2,
         0
       ]
@@ -314,8 +314,8 @@
       "level": "middle",
       "description": "Az áttetsző középmagas gomolyfelhő fehéres, szürkés, vékony, árnyékot nem adó felhőréteg; néha összeolvadó, gyakrabban szabályos elrendeződésű, lapos, párnaszerű, legömbölyített gomolyok, hengerszerű vagy lencse alakú elemek alkotják. Általában 1–5° látszólagos szélességűek, azaz ha karunkat feléjük kinyújtjuk, három középső ujjunkkal lefedhetjük őket. Alakját tekintve rendkívül változatos: az egészen szabályos felhőpadoktól kezdve a szétterjedt formákig számos alakzatban megfigyelhető. Felhőelemei apró vízcseppekből állnak, de nagyon alacsony hőmérsékleten jégkristályok is előfordulnak.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_3_1_s.jpg",
+      "image_large": "/data/img/ac_3_1_l.jpg",
       "code": [
         0,
         3,
@@ -328,8 +328,8 @@
       "level": "middle",
       "description": "Az áttetsző középmagas gomolyfelhő fehéres, szürkés, vékony, árnyékot nem adó felhőréteg; néha összeolvadó, gyakrabban szabályos elrendeződésű, lapos, párnaszerű, legömbölyített gomolyok, hengerszerű vagy lencse alakú elemek alkotják. Általában 1–5° látszólagos szélességűek, azaz ha karunkat feléjük kinyújtjuk, három középső ujjunkkal lefedhetjük őket. Alakját tekintve rendkívül változatos: az egészen szabályos felhőpadoktól kezdve a szétterjedt formákig számos alakzatban megfigyelhető. Felhőelemei apró vízcseppekből állnak, de nagyon alacsony hőmérsékleten jégkristályok is előfordulnak.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_3_2_s.jpg",
+      "image_large": "/data/img/ac_3_2_l.jpg",
       "code": [
         0,
         3,
