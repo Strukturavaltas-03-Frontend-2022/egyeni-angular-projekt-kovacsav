@@ -342,8 +342,8 @@
       "level": "middle",
       "description": "A középmagas lencsefelhős légköri hullámmozgások során jönnek létre, a hullámok feláramlási szakaszában. Lencse vagy mandula formájúak, vagy hosszan elnyúló, pados szerkezetet mutatnak, körvonalai rendszerint élesek. A padok állhatnak szorosan egymás mellé simuló felhőelemekből, vagy lehetnek többé-kevésbé simák, ekkor határozott árnyékot vetnek.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_4_1_s.jpg",
+      "image_large": "/data/img/ac_4_1_l.jpg",
       "code": [
         0,
         4,
@@ -356,8 +356,8 @@
       "level": "middle",
       "description": "A középmagas lencsefelhős légköri hullámmozgások során jönnek létre, a hullámok feláramlási szakaszában. Lencse vagy mandula formájúak, vagy hosszan elnyúló, pados szerkezetet mutatnak, körvonalai rendszerint élesek. A padok állhatnak szorosan egymás mellé simuló felhőelemekből, vagy lehetnek többé-kevésbé simák, ekkor határozott árnyékot vetnek.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_4_2_s.jpg",
+      "image_large": "/data/img/ac_4_2_l.jpg",
       "code": [
         0,
         4,
@@ -370,10 +370,10 @@
       "level": "middle",
       "description": "A felvonuló középmagas gomolyfelhő szürkés, árnyékot adó felhőréteg; néha összeolvadó, gyakrabban szabályos elrendeződésű, lapos, párnaszerű, legömbölyített gomolyok, hengerszerű vagy lencse alakú elemek alkotják. Általában 1–5° látszólagos szélességűek, azaz ha karunkat feléjük kinyújtjuk, három középső ujjunkkal lefedhetjük őket. Alakját tekintve rendkívül változatos: az egészen szabályos felhőpadoktól kezdve a szétterjedt formákig számos alakzatban megfigyelhető. Felhőelemei apró vízcseppekből állnak, de nagyon alacsony hőmérsékleten jégkristályok is előfordulnak. Akkor adható, ha egyértelműen megállapítható, hogy a horizont egyik végéről a másik felé tartanak, közben pedig általában sűrűsödnek, ill. vastagszanak.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_5_1_s.jpg",
+      "image_large": "/data/img/ac_5_1_l.jpg",
       "code": [
-        0,
+        2,
         5,
         0
       ]
@@ -384,8 +384,8 @@
       "level": "middle",
       "description": "A felvonuló középmagas gomolyfelhő szürkés, árnyékot adó felhőréteg; néha összeolvadó, gyakrabban szabályos elrendeződésű, lapos, párnaszerű, legömbölyített gomolyok, hengerszerű vagy lencse alakú elemek alkotják. Általában 1–5° látszólagos szélességűek, azaz ha karunkat feléjük kinyújtjuk, három középső ujjunkkal lefedhetjük őket. Alakját tekintve rendkívül változatos: az egészen szabályos felhőpadoktól kezdve a szétterjedt formákig számos alakzatban megfigyelhető. Felhőelemei apró vízcseppekből állnak, de nagyon alacsony hőmérsékleten jégkristályok is előfordulnak. Akkor adható, ha egyértelműen megállapítható, hogy a horizont egyik végéről a másik felé tartanak, közben pedig általában sűrűsödnek, ill. vastagszanak.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_5_2_s.jpg",
+      "image_large": "/data/img/ac_5_2_l.jpg",
       "code": [
         0,
         5,
@@ -398,8 +398,8 @@
       "level": "middle",
       "description": "A középmagas gomolyfelhő gomolyfelhő vagy zivatarfelhő szétterüléséből képződik. Leggyakrabban olyankor alakul ki, amikor a középmagas szinten egy inverziós záróréteg található, amibe az emelkedő Cu-felhők beleütköznek, és elkezdenek szétterülni.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_6_1_s.jpg",
+      "image_large": "/data/img/ac_6_1_l.jpg",
       "code": [
         0,
         6,
@@ -412,8 +412,8 @@
       "level": "middle",
       "description": "A középmagas gomolyfelhő gomolyfelhő vagy zivatarfelhő szétterüléséből képződik. Leggyakrabban olyankor alakul ki, amikor a középmagas szinten egy inverziós záróréteg található, amibe az emelkedő Cu-felhők beleütköznek, és elkezdenek szétterülni.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_6_2_s.jpg",
+      "image_large": "/data/img/ac_6_2_l.jpg",
       "code": [
         0,
         6,
@@ -426,8 +426,8 @@
       "level": "middle",
       "description": "Duplicatus esetén altocumulusok legalább két rétegben figyelhetők meg. Általában időjárási frontok érkezése előtt tűnik fel, amikor a frontális nedvességi mező még nem összefüggő, vagy csak magasabb rétegekre koncentrálódik. A másik esetben As-réteg alatt Ac-padok láthatók. Általában sötétebb és világosabb részek váltják egymást. Gyenge intenzitású eső-, vagy hó hullhat belőle.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_7_1_s.jpg",
+      "image_large": "/data/img/ac_7_1_l.jpg",
       "code": [
         0,
         7,
@@ -440,8 +440,8 @@
       "level": "middle",
       "description": "Duplicatus esetén altocumulusok legalább két rétegben figyelhetők meg. Általában időjárási frontok érkezése előtt tűnik fel, amikor a frontális nedvességi mező még nem összefüggő, vagy csak magasabb rétegekre koncentrálódik. A másik esetben As-réteg alatt Ac-padok láthatók. Általában sötétebb és világosabb részek váltják egymást. Gyenge intenzitású eső-, vagy hó hullhat belőle.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_7_2_s.jpg",
+      "image_large": "/data/img/ac_7_2_l.jpg",
       "code": [
         0,
         7,
@@ -454,8 +454,8 @@
       "level": "middle",
       "description": "A floccus viszonylag sötét, apró, gomolyszerű párnácskákból álló altocumulus. Altocumulus castellanus feldarabolódásából is kialakulhat. Nagyon hasonlít az stratocumulushoz, de a felhőelemek látszólagos szélessége kisebb, 1° és 5° közötti.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_8_1_s.jpg",
+      "image_large": "/data/img/ac_8_1_l.jpg",
       "code": [
         0,
         8,
@@ -468,12 +468,12 @@
       "level": "middle",
       "description": "A floccus viszonylag sötét, apró, gomolyszerű párnácskákból álló altocumulus. Altocumulus castellanus feldarabolódásából is kialakulhat. Nagyon hasonlít az stratocumulushoz, de a felhőelemek látszólagos szélessége kisebb, 1° és 5° közötti.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_8_2_s.jpg",
+      "image_large": "/data/img/ac_8_2_l.jpg",
       "code": [
-        0,
+        2,
         8,
-        0
+        2
       ]
     },
     {
@@ -482,8 +482,8 @@
       "level": "middle",
       "description": "A castellanus szó a középmagas gomolyok felső részének egy szakaszán fellelhető kitüremkedésekre utal, amely sajátos, fogazott külsőt ad a felhőnek. Az éles, bástyaszerű kis tornyocskákból álló, kifejlett castellanus a középmagas szint labilitására utal, amely további fejlődésével akár cumulus congestust, sőt zivatarfelhőt is kialakíthat. A castellanus jelleg különösen akkor jól észlelhető, ha a felhőt oldalról látjuk.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_8_3_s.jpg",
+      "image_large": "/data/img/ac_8_3_l.jpg",
       "code": [
         0,
         8,
@@ -496,8 +496,8 @@
       "level": "middle",
       "description": "A castellanus szó a középmagas gomolyok felső részének egy szakaszán fellelhető kitüremkedésekre utal, amely sajátos, fogazott külsőt ad a felhőnek. Az éles, bástyaszerű kis tornyocskákból álló, kifejlett castellanus a középmagas szint labilitására utal, amely további fejlődésével akár cumulus congestust, sőt zivatarfelhőt is kialakíthat. A castellanus jelleg különösen akkor jól észlelhető, ha a felhőt oldalról látjuk.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ac_8_4_s.jpg",
+      "image_large": "/data/img/ac_8_4_l.jpg",
       "code": [
         0,
         8,
@@ -510,8 +510,8 @@
       "level": "high",
       "description": "A rostos pehelyfelhőt vékony, közel egyenes, vagy gyengén görbült szálak, fonalak alkotják. A szálak többnyire jól elkülönülnek, csomók soha nem alakulnak ki rajtuk. A bennük lévő jégkristályok meglehetősen aprók, viszonylag ritkán helyezkednek el. Általában hosszan elnyúló, igen vékony, fehér csíkokból vagy szalagokból állnak, amelyek a nap fényét csak alig szűrik.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_1_1_s.jpg",
+      "image_large": "/data/img/ci_1_1_l.jpg",
       "code": [
         0,
         0,
@@ -524,8 +524,8 @@
       "level": "high",
       "description": "A rostos pehelyfelhőt vékony, közel egyenes, vagy gyengén görbült szálak, fonalak alkotják. A szálak többnyire jól elkülönülnek, csomók soha nem alakulnak ki rajtuk. A bennük lévő jégkristályok meglehetősen aprók, viszonylag ritkán helyezkednek el. Általában hosszan elnyúló, igen vékony, fehér csíkokból vagy szalagokból állnak, amelyek a nap fényét csak alig szűrik.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_1_2_s.jpg",
+      "image_large": "/data/img/ci_1_2_l.jpg",
       "code": [
         0,
         0,
@@ -538,8 +538,8 @@
       "level": "high",
       "description": "A megvastagodott pehelyfelhő viszonylag sűrű, határozatlan kontúrú, megvastagodott cirrus változat, ami egyes helyeken már elég sűrű lehet ahhoz, hogy szürkés önárnyék is kialakulhasson. A legsűrűbb változatok a Nap körvonalait el is homályosíthatják, vagy akár el is takarhatják (különösen akkor, amikor a Nap a horizonthoz közel található). Spissatusokat már nagyobb jégkristályok is alkothatják, amelyek egyrészt a felhők optikai vastagságát növelik, másrészt akár gyengébb hulló sávokat is kialakíthatnak (virga), amelyek talajt sosem érnek. Ha nagyobb mennyiségben tűnnek fel az égen, akkor egyes felhőelemeken szivárványszínű elszíneződés, ún. felhőirizáció is megfigyelhető.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_2_1_s.jpg",
+      "image_large": "/data/img/ci_2_1_l.jpg",
       "code": [
         0,
         0,
@@ -552,8 +552,8 @@
       "level": "high",
       "description": "A megvastagodott pehelyfelhő viszonylag sűrű, határozatlan kontúrú, megvastagodott cirrus változat, ami egyes helyeken már elég sűrű lehet ahhoz, hogy szürkés önárnyék is kialakulhasson. A legsűrűbb változatok a Nap körvonalait el is homályosíthatják, vagy akár el is takarhatják (különösen akkor, amikor a Nap a horizonthoz közel található). Spissatusokat már nagyobb jégkristályok is alkothatják, amelyek egyrészt a felhők optikai vastagságát növelik, másrészt akár gyengébb hulló sávokat is kialakíthatnak (virga), amelyek talajt sosem érnek. Ha nagyobb mennyiségben tűnnek fel az égen, akkor egyes felhőelemeken szivárványszínű elszíneződés, ún. felhőirizáció is megfigyelhető.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_2_2_s.jpg",
+      "image_large": "/data/img/ci_2_2_l.jpg",
       "code": [
         0,
         0,
@@ -566,8 +566,8 @@
       "level": "high",
       "description": "A zivatarfelhő üllőjének szétterüléséből alakul ki, vagy akkor, ha az erős magassági szelek a lefújják magáról az anyafelhőről az üllőszerű képződményt. Jet stream (magaslégköri futóáramlás) megjelenésekor, ha üllős zivatarfelhő képes kialakulni, üllője akár több száz km-rel hamarabb is látható, mint maga a Cb.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_3_1_s.jpg",
+      "image_large": "/data/img/ci_3_1_l.jpg",
       "code": [
         0,
         0,
@@ -580,8 +580,8 @@
       "level": "high",
       "description": "A zivatarfelhő üllőjének szétterüléséből alakul ki, vagy akkor, ha az erős magassági szelek a lefújják magáról az anyafelhőről az üllőszerű képződményt. Jet stream (magaslégköri futóáramlás) megjelenésekor, ha üllős zivatarfelhő képes kialakulni, üllője akár több száz km-rel hamarabb is látható, mint maga a Cb.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_3_2_s.jpg",
+      "image_large": "/data/img/ci_3_2_l.jpg",
       "code": [
         0,
         0,
@@ -594,10 +594,10 @@
       "level": "high",
       "description": "A cirrusok a horizont egyik végéből az átellenes irányba mozognak, miközben mennyiségük folyamatosan nő és rendszerint vastagszanak. Ebbe a csoportba tartozik a növekvő mennyiségben feltűnő, kampós (uncinus), fapipához hasonló alakot mutató pehelyfelhőzet is. Egy klasszikus melegfront közeledésének első előhírnöke.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_4_1_s.jpg",
+      "image_large": "/data/img/ci_4_1_l.jpg",
       "code": [
-        0,
+        2,
         0,
         4
       ]
@@ -608,8 +608,8 @@
       "level": "high",
       "description": "A cirrusok a horizont egyik végéből az átellenes irányba mozognak, miközben mennyiségük folyamatosan nő és rendszerint vastagszanak. Ebbe a csoportba tartozik a növekvő mennyiségben feltűnő, kampós (uncinus), fapipához hasonló alakot mutató pehelyfelhőzet is. Egy klasszikus melegfront közeledésének első előhírnöke.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/ci_4_2_s.jpg",
+      "image_large": "/data/img/ci_4_2_l.jpg",
       "code": [
         0,
         0,
@@ -622,8 +622,8 @@
       "level": "high",
       "description": "A cirrostratus olyan jékristályokból álló, fehér, nem szabdalt felhőréteg, melynek horizontális kiterjedése jelentős. Ha a cirrusok egyre sűrűbbek, egyre jobban összeállnak, szerkezetük fokozatosan egyre homogénabbá válik, akkor cirrostratusról beszélünk. Ha ezek felvonuló jelleget mutatnak, első lépcsőben a Cs5-típusú felhő jelenik meg. A kritérium szerint 45° alatt kell látszaniuk, ami azt is jelenti, hogy zömmel 2-3 oktát takarnak az égből.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cs_5_1_s.jpg",
+      "image_large": "/data/img/cs_5_1_l.jpg",
       "code": [
         0,
         0,
@@ -636,8 +636,8 @@
       "level": "high",
       "description": "A 45° fölött, a horizonton egyre magasabban, 3 oktánál nagyobb mennyiségben látszó, vékony fátyolfelhőréteg. A vékony, gyakorta felvonuló cirrostratus réteget halojelenség kísérheti. A felhőréteg olykor olyannyira vékony, hogy csak a halojelenség utal a jelenlétére. Napközben fehéres színűek, gyengén szűrik a nap fényét, alkonyatkor azonban először sárgás, majd vöröses, később szürkés színűvé válnak. Napkeltekor éppen fordított sorrendben tűnnek fel a színek.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cs_6_1_s.jpg",
+      "image_large": "/data/img/cs_6_1_l.jpg",
       "code": [
         0,
         0,
@@ -650,8 +650,8 @@
       "level": "high",
       "description": "Vékony fátyolfelhőréteg, mely az egész égboltot takarja. Gyakori a halojelenség. A felhőréteg olykor olyannyira vékony, hogy csak a halojelenség utal a jelenlétére. Napközben fehéres színűek, gyengén szűrik a nap fényét, alkonyatkor azonban először sárgás, majd vöröses, később szürkés színűvé válnak. Napkeltekor éppen fordított sorrendben tűnnek fel a színek.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cs_7_1_s.jpg",
+      "image_large": "/data/img/cs_7_1_l.jpg",
       "code": [
         0,
         0,
@@ -664,8 +664,8 @@
       "level": "high",
       "description": "Vékony fátyolfelhőréteg, mely mem takarja az egész égboltot. Gyakori a halojelenség. A felhőréteg olykor olyannyira vékony, hogy csak a halojelenség utal a jelenlétére. Napközben fehéres színűek, gyengén szűrik a nap fényét, alkonyatkor azonban először sárgás, majd vöröses, később szürkés színűvé válnak. Napkeltekor éppen fordított sorrendben tűnnek fel a színek.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cs_8_1_s.jpg",
+      "image_large": "/data/img/cs_8_1_l.jpg",
       "code": [
         0,
         0,
@@ -678,8 +678,8 @@
       "level": "high",
       "description": "A bárányfelhő vékony, önárnyékot nem adó felhőpadokból, felhőlepelből állnak, amelyek szemcsés elemekből épülnek fel. A szemcsék egybeolvadhatnak, vagy elkülönülhetnek egymástól, többé-kevésbé szabályos elrendeződésűek. Igen apró felhőelemek alkotják, amelyeknek látszólagos szélessége 1°-nál kisebb. Tipikus megjelenési formája olyan, mintha sok száz apró, fehér gombostűfejet szórtunk volna szét az égbolton.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cc_9_1_s.jpg",
+      "image_large": "/data/img/cc_9_1_l.jpg",
       "code": [
         0,
         0,
@@ -692,8 +692,8 @@
       "level": "high",
       "description": "A bárányfelhő vékony, önárnyékot nem adó felhőpadokból, felhőlepelből állnak, amelyek szemcsés elemekből épülnek fel. A szemcsék egybeolvadhatnak, vagy elkülönülhetnek egymástól, többé-kevésbé szabályos elrendeződésűek. Igen apró felhőelemek alkotják, amelyeknek látszólagos szélessége 1°-nál kisebb. Tipikus megjelenési formája olyan, mintha sok száz apró, fehér gombostűfejet szórtunk volna szét az égbolton.",
       "precipitation": false,
-      "image_small": "",
-      "image_large": "",
+      "image_small": "/data/img/cc_9_2_s.jpg",
+      "image_large": "/data/img/cc_9_2_l.jpg",
       "code": [
         0,
         0,
