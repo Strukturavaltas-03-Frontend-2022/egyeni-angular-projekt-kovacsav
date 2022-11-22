@@ -1,0 +1,14 @@
+.card-text,
+.card-footer {
+  text-align: justify;
+}
+
+.card-background {
+  background-color: beige;
+}
+
+.hovered:hover {
+  //box-shadow: 10px 10px 5px grey;
+  border-color: rgb(blue);
+  border-width: 2px;
+}
