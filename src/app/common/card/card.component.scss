@@ -1,3 +1,7 @@
+.card {
+  max-width: 180px;
+}
+
 .card-text,
 .card-footer {
   text-align: justify;
@@ -9,6 +13,18 @@
 
 .hovered:hover {
   //box-shadow: 10px 10px 5px grey;
-  border-color: rgb(blue);
+  border-color: blue;
   border-width: 2px;
+}
+
+.image__cover {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: -25px;
+  height: 25px;
+}
+
+.card-body {
+  position: relative;
+  top: -25px;
 }

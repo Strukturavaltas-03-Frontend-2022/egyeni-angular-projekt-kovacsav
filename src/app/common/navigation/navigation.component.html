@@ -1,1 +1,29 @@
-<p>navigation works!</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand mt-3" routerLink="/">
+    <p class="brand__logo">
+      Felhőatlasz
+    </p>
+  </a>
+  <div class="d-flex justify-content-center mx-5">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/home">Kezdőlap</a>
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/list">Minden felhő</a>
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/lowClouds">Alacsony szintű felhők</a>
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/middleClouds">Közép szintű felhők</a>
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/highClouds">Magas szintű felhők</a>
+        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+          aria-current="page" routerLink="/editor">Felhő szerkesztő</a>
+      </div>
+    </div>
+  </div>
+</nav>

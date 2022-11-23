@@ -1,7 +1,6 @@
-<!-- <div class="row py-4">
-  <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 w-20 my-2"
-    *ngFor="let cloudItem of cloudList | filter: filterPhrase:'name' ">
+<div class="row py-4 ">
+  <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 w-20 my-2 card-group d-flex justify-content-center"
+    *ngFor="let cloudItem of cloudList$ | async | filter: filterPhrase:'name' ">
     <app-card [cloud]="cloudItem"></app-card>
   </div>
 </div>
- -->

@@ -1,8 +1,13 @@
-<!-- <div class="card h-100 shadow hovered">
-  <a routerLink="/plant/{{ plant._id }}">
-    <img [src]="plant.image[0]" class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h6 class="card-title fw-bold text-center">{{ plant.name }}</h6>
-    </div>
-  </a>
-</div> -->
+<div class="card h-100 shadow hovered">
+  <img [src]="cloud.image_small" class="card-img-top" alt="..." />
+  <div class="image__cover"></div>
+
+  <h6 class="card-title fw-bold text-center">{{ cloud.name }}</h6>
+  <div class="card-footer">
+    <p class="">{{ cloud.level }}</p>
+    <p> Synop kód: C<sub>L</sub>={{ cloud.code[0] }} C<sub>M</sub>={{ cloud.code[1] }} C<sub>H</sub>={{ cloud.code[2]
+      }}
+    </p>
+
+  </div>
+</div>
