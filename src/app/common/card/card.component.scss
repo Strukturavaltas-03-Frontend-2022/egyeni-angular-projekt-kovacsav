@@ -24,7 +24,19 @@
   height: 25px;
 }
 
-.card-body {
+.card__body {
   position: relative;
   top: -25px;
+}
+
+.card-title {
+  min-height: 2.5em;
+}
+
+.fa {
+  color: blue;
+}
+
+.desc__text {
+  font-size: 0.8rem;
 }

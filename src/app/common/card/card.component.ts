@@ -10,9 +10,12 @@ export class CardComponent implements OnInit {
 
   @Input() cloud: Cloud = new Cloud;
 
+  indexArray: number[] = [0, 1, 2, 3, 4, 5, 6, 7]
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

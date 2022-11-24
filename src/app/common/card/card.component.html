@@ -1,13 +1,29 @@
 <div class="card h-100 shadow hovered">
   <img [src]="cloud.image_small" class="card-img-top" alt="..." />
-  <div class="image__cover"></div>
-
-  <h6 class="card-title fw-bold text-center">{{ cloud.name }}</h6>
-  <div class="card-footer">
-    <p class="">{{ cloud.level }}</p>
-    <p> Synop kód: C<sub>L</sub>={{ cloud.code[0] }} C<sub>M</sub>={{ cloud.code[1] }} C<sub>H</sub>={{ cloud.code[2]
+  <div class="image__cover d-flex justify-content-end">
+    <i *ngIf="cloud.precipitation" class="fa fa-tint me-2 mt-1"></i>
+  </div>
+  <div class="card__body">
+    <h6 class="card-title fw-bold text-center">
+      {{ cloud.name }}
+    </h6>
+    <!-- <p class="p-3">
+      {{ cloud.description.split(' ')[0] + ' ' + cloud.description.split(' ')[1] + ' ' + cloud.description.split(' ')[2]
+      + ' ' + cloud.description.split(' ')[3] + ' ... '
       }}
-    </p>
-
+    </p> -->
+    <div class="p-3 desc__text">
+      <span class="" *ngFor="let i of indexArray">
+        {{ cloud.description.split(' ')[i] + ' '}}
+      </span>...
+    </div>
+    <div class="card-footer">
+      <p class="fst-italic">{{ cloud.level }}</p>
+      <p class="font-monospace"> Synop kód:
+        <br>
+        C<sub>L</sub>={{ cloud.codeLow }} C<sub>M</sub>={{ cloud.codeMiddle }} C<sub>H</sub>={{ cloud.codeHigh
+        }}
+      </p>
+    </div>
   </div>
 </div>

@@ -23,5 +23,7 @@ export class Cloud {
   precipitation: boolean = false;
   image_small: string = '';
   image_large: string = '';
-  code: number[] = [];
+  codeLow: number | string = 0;
+  codeMiddle: number | string = 0;
+  codeHigh: number | string = 0;
 }

@@ -8,11 +8,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cu_1_1_s.jpg",
       "image_large": "/assets/img/cu_1_1_l.jpg",
-      "code": [
-        1,
-        0,
-        0
-      ]
+      "codeLow": 1,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 2,
@@ -22,11 +20,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cu_1_2_s.jpg",
       "image_large": "/assets/img/cu_1_2_l.jpg",
-      "code": [
-        1,
-        0,
-        0
-      ]
+      "codeLow": 1,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 3,
@@ -36,11 +32,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cu_2_1_s.jpg",
       "image_large": "/assets/img/cu_2_1_l.jpg",
-      "code": [
-        2,
-        0,
-        0
-      ]
+      "codeLow": 2,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 4,
@@ -50,11 +44,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cu_2_2_s.jpg",
       "image_large": "/assets/img/cu_2_2_l.jpg",
-      "code": [
-        2,
-        0,
-        0
-      ]
+      "codeLow": 2,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 5,
@@ -64,11 +56,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cb_3_1_s.jpg",
       "image_large": "/assets/img/cb_3_1_l.jpg",
-      "code": [
-        3,
-        0,
-        0
-      ]
+      "codeLow": 3,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 6,
@@ -78,11 +68,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cb_3_2_s.jpg",
       "image_large": "/assets/img/cb_3_2_l.jpg",
-      "code": [
-        3,
-        0,
-        0
-      ]
+      "codeLow": 3,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 7,
@@ -92,11 +80,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cb_9_1_s.jpg",
       "image_large": "/assets/img/cb_9_1_l.jpg",
-      "code": [
-        9,
-        0,
-        0
-      ]
+      "codeLow": 9,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 8,
@@ -106,11 +92,9 @@
       "precipitation": true,
       "image_small": "/assets/img/cb_9_2_s.jpg",
       "image_large": "/assets/img/cb_9_2_l.jpg",
-      "code": [
-        9,
-        0,
-        0
-      ]
+      "codeLow": 9,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 9,
@@ -120,11 +104,9 @@
       "precipitation": false,
       "image_small": "/assets/img/sc_4_1_s.jpg",
       "image_large": "/assets/img/sc_4_1_l.jpg",
-      "code": [
-        4,
-        0,
-        0
-      ]
+      "codeLow": 4,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 10,
@@ -134,11 +116,9 @@
       "precipitation": false,
       "image_small": "/assets/img/sc_4_2_s.jpg",
       "image_large": "/assets/img/sc_4_2_l.jpg",
-      "code": [
-        4,
-        0,
-        0
-      ]
+      "codeLow": 4,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 11,
@@ -148,11 +128,9 @@
       "precipitation": false,
       "image_small": "/assets/img/sc_5_1_s.jpg",
       "image_large": "/assets/img/sc_5_1_l.jpg",
-      "code": [
-        5,
-        0,
-        0
-      ]
+      "codeLow": 5,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 12,
@@ -162,11 +140,9 @@
       "precipitation": false,
       "image_small": "/assets/img/sc_5_2_s.jpg",
       "image_large": "/assets/img/sc_5_2_l.jpg",
-      "code": [
-        5,
-        0,
-        0
-      ]
+      "codeLow": 5,
+      "codeMiddle": "/",
+      "codeHigh": "/"
     },
     {
       "id": 13,
@@ -176,11 +152,9 @@
       "precipitation": true,
       "image_small": "/assets/img/st_6_1_s.jpg",
       "image_large": "/assets/img/st_6_1_l.jpg",
-      "code": [
-        6,
-        0,
-        0
-      ]
+      "codeLow": 6,
+      "codeMiddle": "/",
+      "codeHigh": "/"
     },
     {
       "id": 14,
@@ -190,11 +164,9 @@
       "precipitation": true,
       "image_small": "/assets/img/st_6_2_s.jpg",
       "image_large": "/assets/img/st_6_2_l.jpg",
-      "code": [
-        6,
-        0,
-        0
-      ]
+      "codeLow": 6,
+      "codeMiddle": "/",
+      "codeHigh": "/"
     },
     {
       "id": 15,
@@ -204,11 +176,9 @@
       "precipitation": false,
       "image_small": "/assets/img/st_7_1_s.jpg",
       "image_large": "/assets/img/st_7_1_l.jpg",
-      "code": [
-        7,
-        0,
-        0
-      ]
+      "codeLow": 7,
+      "codeMiddle": 0,
+      "codeHigh": 0
     },
     {
       "id": 16,
@@ -218,11 +188,9 @@
       "precipitation": false,
       "image_small": "/assets/img/st_7_2_s.jpg",
       "image_large": "/assets/img/st_7_2_l.jpg",
-      "code": [
-        7,
-        3,
-        9
-      ]
+      "codeLow": 7,
+      "codeMiddle": 0,
+      "codeHigh": 2
     },
     {
       "id": 17,
@@ -232,11 +200,9 @@
       "precipitation": true,
       "image_small": "/assets/img/ns_8_1_s.jpg",
       "image_large": "/assets/img/ns_8_1_l.jpg",
-      "code": [
-        0,
-        2,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 2,
+      "codeHigh": "/"
     },
     {
       "id": 18,
@@ -246,11 +212,9 @@
       "precipitation": true,
       "image_small": "/assets/img/ns_8_2_s.jpg",
       "image_large": "/assets/img/ns_8_2_l.jpg",
-      "code": [
-        0,
-        2,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 2,
+      "codeHigh": "/"
     },
     {
       "id": 19,
@@ -260,11 +224,9 @@
       "precipitation": true,
       "image_small": "/assets/img/as_1_1_s.jpg",
       "image_large": "/assets/img/as_1_1_l.jpg",
-      "code": [
-        0,
-        1,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 1,
+      "codeHigh": "/"
     },
     {
       "id": 20,
@@ -274,11 +236,9 @@
       "precipitation": true,
       "image_small": "/assets/img/as_1_2_s.jpg",
       "image_large": "/assets/img/as_1_2_l.jpg",
-      "code": [
-        1,
-        1,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 1,
+      "codeHigh": "/"
     },
     {
       "id": 21,
@@ -288,11 +248,9 @@
       "precipitation": true,
       "image_small": "/assets/img/as_2_1_s.jpg",
       "image_large": "/assets/img/as_2_1_l.jpg",
-      "code": [
-        0,
-        2,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 2,
+      "codeHigh": "/"
     },
     {
       "id": 22,
@@ -302,11 +260,9 @@
       "precipitation": true,
       "image_small": "/assets/img/as_2_2_s.jpg",
       "image_large": "/assets/img/as_2_2_l.jpg",
-      "code": [
-        7,
-        2,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 2,
+      "codeHigh": "/"
     },
     {
       "id": 23,
@@ -316,11 +272,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_3_1_s.jpg",
       "image_large": "/assets/img/ac_3_1_l.jpg",
-      "code": [
-        0,
-        3,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 3,
+      "codeHigh": "/"
     },
     {
       "id": 24,
@@ -330,11 +284,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_3_2_s.jpg",
       "image_large": "/assets/img/ac_3_2_l.jpg",
-      "code": [
-        0,
-        3,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 3,
+      "codeHigh": "/"
     },
     {
       "id": 25,
@@ -344,11 +296,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_4_1_s.jpg",
       "image_large": "/assets/img/ac_4_1_l.jpg",
-      "code": [
-        0,
-        4,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 4,
+      "codeHigh": 0
     },
     {
       "id": 26,
@@ -358,11 +308,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_4_2_s.jpg",
       "image_large": "/assets/img/ac_4_2_l.jpg",
-      "code": [
-        0,
-        4,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 4,
+      "codeHigh": 0
     },
     {
       "id": 27,
@@ -372,11 +320,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_5_1_s.jpg",
       "image_large": "/assets/img/ac_5_1_l.jpg",
-      "code": [
-        2,
-        5,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 5,
+      "codeHigh": "/"
     },
     {
       "id": 28,
@@ -386,11 +332,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_5_2_s.jpg",
       "image_large": "/assets/img/ac_5_2_l.jpg",
-      "code": [
-        0,
-        5,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 5,
+      "codeHigh": "/"
     },
     {
       "id": 29,
@@ -400,11 +344,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_6_1_s.jpg",
       "image_large": "/assets/img/ac_6_1_l.jpg",
-      "code": [
-        0,
-        6,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 6,
+      "codeHigh": 0
     },
     {
       "id": 30,
@@ -414,39 +356,33 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_6_2_s.jpg",
       "image_large": "/assets/img/ac_6_2_l.jpg",
-      "code": [
-        0,
-        6,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 6,
+      "codeHigh": 0
     },
     {
       "id": 31,
-      "name": "Altocumulus duplicatus / Altocumulus + altostratus",
+      "name": "Altocumulus + altostratus",
       "level": "Közepes szintű",
       "description": "Duplicatus esetén altocumulusok legalább két rétegben figyelhetők meg. Általában időjárási frontok érkezése előtt tűnik fel, amikor a frontális nedvességi mező még nem összefüggő, vagy csak magasabb rétegekre koncentrálódik. A másik esetben As-réteg alatt Ac-padok láthatók. Általában sötétebb és világosabb részek váltják egymást. Gyenge intenzitású eső-, vagy hó hullhat belőle.",
-      "precipitation": false,
+      "precipitation": true,
       "image_small": "/assets/img/ac_7_1_s.jpg",
       "image_large": "/assets/img/ac_7_1_l.jpg",
-      "code": [
-        0,
-        7,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 7,
+      "codeHigh": "/"
     },
     {
       "id": 32,
-      "name": "Altocumulus duplicatus / Altocumulus + altostratus",
+      "name": "Altocumulus + altostratus",
       "level": "Közepes szintű",
       "description": "Duplicatus esetén altocumulusok legalább két rétegben figyelhetők meg. Általában időjárási frontok érkezése előtt tűnik fel, amikor a frontális nedvességi mező még nem összefüggő, vagy csak magasabb rétegekre koncentrálódik. A másik esetben As-réteg alatt Ac-padok láthatók. Általában sötétebb és világosabb részek váltják egymást. Gyenge intenzitású eső-, vagy hó hullhat belőle.",
-      "precipitation": false,
+      "precipitation": true,
       "image_small": "/assets/img/ac_7_2_s.jpg",
       "image_large": "/assets/img/ac_7_2_l.jpg",
-      "code": [
-        0,
-        7,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 7,
+      "codeHigh": "/"
     },
     {
       "id": 33,
@@ -456,11 +392,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_8_1_s.jpg",
       "image_large": "/assets/img/ac_8_1_l.jpg",
-      "code": [
-        0,
-        8,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 8,
+      "codeHigh": 0
     },
     {
       "id": 34,
@@ -470,11 +404,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_8_2_s.jpg",
       "image_large": "/assets/img/ac_8_2_l.jpg",
-      "code": [
-        2,
-        8,
-        2
-      ]
+      "codeLow": 0,
+      "codeMiddle": 8,
+      "codeHigh": 0
     },
     {
       "id": 35,
@@ -484,11 +416,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_8_3_s.jpg",
       "image_large": "/assets/img/ac_8_3_l.jpg",
-      "code": [
-        0,
-        8,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 8,
+      "codeHigh": 0
     },
     {
       "id": 36,
@@ -498,11 +428,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ac_8_4_s.jpg",
       "image_large": "/assets/img/ac_8_4_l.jpg",
-      "code": [
-        0,
-        8,
-        0
-      ]
+      "codeLow": 0,
+      "codeMiddle": 8,
+      "codeHigh": 0
     },
     {
       "id": 37,
@@ -512,11 +440,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_1_1_s.jpg",
       "image_large": "/assets/img/ci_1_1_l.jpg",
-      "code": [
-        0,
-        0,
-        1
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 1
     },
     {
       "id": 38,
@@ -526,11 +452,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_1_2_s.jpg",
       "image_large": "/assets/img/ci_1_2_l.jpg",
-      "code": [
-        0,
-        0,
-        1
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 1
     },
     {
       "id": 39,
@@ -540,11 +464,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_2_1_s.jpg",
       "image_large": "/assets/img/ci_2_1_l.jpg",
-      "code": [
-        0,
-        0,
-        2
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 2
     },
     {
       "id": 40,
@@ -554,11 +476,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_2_2_s.jpg",
       "image_large": "/assets/img/ci_2_2_l.jpg",
-      "code": [
-        0,
-        0,
-        2
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 2
     },
     {
       "id": 41,
@@ -568,11 +488,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_3_1_s.jpg",
       "image_large": "/assets/img/ci_3_1_l.jpg",
-      "code": [
-        0,
-        0,
-        3
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 3
     },
     {
       "id": 42,
@@ -582,11 +500,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_3_2_s.jpg",
       "image_large": "/assets/img/ci_3_2_l.jpg",
-      "code": [
-        0,
-        0,
-        3
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 3
     },
     {
       "id": 43,
@@ -596,11 +512,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_4_1_s.jpg",
       "image_large": "/assets/img/ci_4_1_l.jpg",
-      "code": [
-        2,
-        0,
-        4
-      ]
+      "codeLow": 2,
+      "codeMiddle": 0,
+      "codeHigh": 4
     },
     {
       "id": 44,
@@ -610,11 +524,9 @@
       "precipitation": false,
       "image_small": "/assets/img/ci_4_2_s.jpg",
       "image_large": "/assets/img/ci_4_2_l.jpg",
-      "code": [
-        0,
-        0,
-        4
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 4
     },
     {
       "id": 45,
@@ -624,11 +536,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cs_5_1_s.jpg",
       "image_large": "/assets/img/cs_5_1_l.jpg",
-      "code": [
-        0,
-        0,
-        5
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 5
     },
     {
       "id": 46,
@@ -638,11 +548,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cs_6_1_s.jpg",
       "image_large": "/assets/img/cs_6_1_l.jpg",
-      "code": [
-        0,
-        0,
-        6
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 5
     },
     {
       "id": 47,
@@ -652,11 +560,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cs_7_1_s.jpg",
       "image_large": "/assets/img/cs_7_1_l.jpg",
-      "code": [
-        0,
-        0,
-        7
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 7
     },
     {
       "id": 48,
@@ -666,11 +572,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cs_8_1_s.jpg",
       "image_large": "/assets/img/cs_8_1_l.jpg",
-      "code": [
-        0,
-        0,
-        8
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 8
     },
     {
       "id": 49,
@@ -680,11 +584,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cc_9_1_s.jpg",
       "image_large": "/assets/img/cc_9_1_l.jpg",
-      "code": [
-        0,
-        0,
-        9
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 9
     },
     {
       "id": 50,
@@ -694,11 +596,9 @@
       "precipitation": false,
       "image_small": "/assets/img/cc_9_2_s.jpg",
       "image_large": "/assets/img/cc_9_2_l.jpg",
-      "code": [
-        0,
-        0,
-        9
-      ]
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 9
     }
   ]
 }
