@@ -1,0 +1,33 @@
+.card {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.card__shadow {
+  box-shadow: 0px 20px 30px -20px;
+  border-top: 3px solid rgb(27, 133, 255);
+}
+
+.image__disappear:hover {
+  opacity: 0;
+}
+
+.image__background--1 {
+  background-image: url("../../../assets/img/spec_clouds/NacreousCloud.jpg");
+  background-size: 120%;
+}
+
+.image__background--2 {
+  background-image: url("../../../assets/img/spec_clouds/lightning-clouds.jpg");
+  background-size: 120%;
+}
+
+.image__background--3 {
+  background-image: url("../../../assets/img/spec_clouds/iridescent_havens_750.png");
+  background-size: 120%;
+}
+
+.image__background--4 {
+  background-image: url("../../../assets/img/spec_clouds/Sarychev_peak_eruption.jpg");
+  background-size: 120%;
+}
