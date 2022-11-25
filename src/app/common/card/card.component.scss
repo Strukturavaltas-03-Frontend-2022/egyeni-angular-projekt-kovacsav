@@ -1,3 +1,5 @@
+@use '../../../styles.scss';
+
 .card {
   max-width: 180px;
 }
@@ -13,7 +15,7 @@
 
 .hovered:hover {
   //box-shadow: 10px 10px 5px grey;
-  border-color: blue;
+  border-color: styles.$base-color;
   border-width: 2px;
 }
 
@@ -34,9 +36,19 @@
 }
 
 .fa {
-  color: blue;
+  color: styles.$base-color;
 }
 
 .desc__text {
   font-size: 0.8rem;
+  min-height: 8em;
+}
+
+.modal-footer{
+  background-color: styles.$base-color;
+}
+
+.btn__edit{
+  background-color: styles.$base-color;
+  margin-right: 5px;
 }

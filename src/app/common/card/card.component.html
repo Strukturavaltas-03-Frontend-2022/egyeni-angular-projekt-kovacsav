@@ -3,7 +3,7 @@
   <div class="image__cover d-flex justify-content-end">
     <i *ngIf="cloud.precipitation" class="fa fa-tint me-2 mt-1"></i>
   </div>
-  <div class="card__body">
+  <div class="card__body py-0">
     <h6 class="card-title fw-bold text-center">
       {{ cloud.name }}
     </h6>
@@ -12,18 +12,78 @@
       + ' ' + cloud.description.split(' ')[3] + ' ... '
       }}
     </p> -->
-    <div class="p-3 desc__text">
+    <div class="px-3 desc__text">
       <span class="" *ngFor="let i of indexArray">
-        {{ cloud.description.split(' ')[i] + ' '}}
-      </span>...
+        {{ cloud.description.split(" ")[i] + " " }} </span
+      >...
+      <button
+        type="button"
+        class="btn btn-link"
+        data-bs-toggle="modal"
+        [attr.data-bs-target] = "'#Card'+cloud.id"
+        >
+        <!-- '#\\3'+cloud.id+' ' - így lesz valid a query selector szám id esetén: #\\3numberspace -->
+        Részletek
+      </button>
     </div>
-    <div class="card-footer">
-      <p class="fst-italic">{{ cloud.level }}</p>
-      <p class="font-monospace"> Synop kód:
-        <br>
-        C<sub>L</sub>={{ cloud.codeLow }} C<sub>M</sub>={{ cloud.codeMiddle }} C<sub>H</sub>={{ cloud.codeHigh
+  </div>
+    <div class="card-footer pt-2 pb-0">
+      <!-- <p class="fst-italic">{{ cloud.level }}</p> -->
+      <p class="font-monospace">
+        Synop kód:
+        <br />
+        C<sub>L</sub>={{ cloud.codeLow }} C<sub>M</sub>={{
+          cloud.codeMiddle
         }}
+        C<sub>H</sub>={{ cloud.codeHigh }}
       </p>
+    </div>
+    <div class="card-footer d-flex justify-content-center align-bottom pt-3">
+      <button class="btn me-md-2 btn__edit">
+        <i class="fa fa-pencil text-white"></i>
+      </button>
+      <button class="btn bg-danger">
+        <i class="fa fa-trash text-white"></i>
+      </button>
+    </div>
+  </div>
+
+<!-- Bootstrap modal -->
+<div
+  class="modal fade"
+  [id]="'Card'+cloud.id"
+  tabindex="-1"
+  aria-labelledby="cardModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="cardModalLabel">{{ cloud.name }}</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <img [src]="cloud.image_large" class="card-img-top mb-3" alt="..." />
+        <p>{{ cloud.description }}</p>
+      </div>
+      <div class="modal-footer justify-content-between">
+        <p *ngIf="cloud.precipitation == true" class="text-white font-monospace">Csapadékot adhat</p>
+        <p *ngIf="cloud.precipitation == false" class="text-white font-monospace">Csapadékot nem ad</p>
+        <p class="text-white fst-italic font-monospace">{{ cloud.level }}</p>
+        <p class="text-white font-monospace">
+          Synop kód:
+          <br />
+          C<sub>L</sub>={{ cloud.codeLow }} C<sub>M</sub>={{
+            cloud.codeMiddle
+          }}
+          C<sub>H</sub>={{ cloud.codeHigh }}
+        </p>
+      </div>
     </div>
   </div>
 </div>

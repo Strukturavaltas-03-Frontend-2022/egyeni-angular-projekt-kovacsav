@@ -1,3 +1,5 @@
+@use '../../../styles.scss';
+
 .card {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -5,7 +7,7 @@
 
 .card__shadow {
   box-shadow: 0px 20px 30px -20px;
-  border-top: 3px solid rgb(27, 133, 255);
+  border-top: 3px solid styles.$base-color;
 }
 
 .image__disappear:hover {

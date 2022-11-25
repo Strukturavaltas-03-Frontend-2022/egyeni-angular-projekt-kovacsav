@@ -1,6 +1,34 @@
+<div class="row mx-auto">
+  <div class="col-12 my-2">
+    <!-- <input [(ngModel)]="phrase" class="form-control" type="text"> -->
+    <div class="input-group mb-3">
+      <div class="input-group-text">
+        <select [(ngModel)]="filterKey" class="form-control">
+          <option value="">szűrés minden mezőben</option>
+          <option *ngFor="let col of searchKeys" [value]="col.key">
+            {{ col.title }}
+          </option>
+        </select>
+      </div>
+      <input [(ngModel)]="phrase" class="form-control ml-3 mt-2" type="text" placeholder="szűrő kifejezés">
+    </div>
+  </div>
+</div>
+
 <div class="row py-4 ">
   <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 w-20 my-2 card-group d-flex justify-content-center"
-    *ngFor="let cloudItem of cloudList$ | async | filter: filterPhrase:'name' ">
+    *ngFor="let cloudItem of cloudList$ | async | filter:phrase:filterKey | paginate: { itemsPerPage: 20, currentPage: p }">
     <app-card [cloud]="cloudItem"></app-card>
   </div>
+</div>
+
+
+<div class="d-flex justify-content-center col-12 mt-4 mx-auto">
+  <style>
+    .my-pagination /deep/ .ngx-pagination .current {
+      background: rgb(39, 111, 255);
+    }
+  </style>
+  <pagination-controls class=" my-pagination" (pageChange)="p = $event" previousLabel="Előző" nextLabel="Következő">
+  </pagination-controls>
 </div>

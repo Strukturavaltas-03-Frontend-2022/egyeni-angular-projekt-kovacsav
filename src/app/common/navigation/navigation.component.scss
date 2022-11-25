@@ -1,5 +1,11 @@
+@use '../../../styles.scss';
+
+.navbar{
+  background-color: styles.$base-color;
+}
+
 .brand__logo {
-  color: rgb(51, 127, 241);
+  color: styles.$base-color;
   background-color: white;
   border-radius: 5px;
   font-weight: bold;
@@ -10,3 +16,4 @@
 .active {
   font-weight: bold;
 }
+
