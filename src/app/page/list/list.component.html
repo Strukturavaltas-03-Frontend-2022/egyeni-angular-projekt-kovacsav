@@ -2,8 +2,8 @@
   <div class="col-12 my-2">
     <!-- <input [(ngModel)]="phrase" class="form-control" type="text"> -->
     <div class="input-group mb-3">
-      <div class="input-group-text">
-        <select [(ngModel)]="filterKey" class="form-control">
+      <div class="">
+        <select [(ngModel)]="filterKey" class="form-select mt-2">
           <option value="">szűrés minden mezőben</option>
           <option *ngFor="let col of searchKeys" [value]="col.key">
             {{ col.title }}
@@ -15,9 +15,37 @@
   </div>
 </div>
 
+<div class="row mx-auto">
+  <div class="col-12 my-2">
+    <div class="input-group mb-3">
+      <p class="m-3">
+        Rendezés
+      </p>
+      <div class="">
+        <select [(ngModel)]="sorterKey" class="form-select mt-2">
+          <option value=""></option>
+          <option *ngFor="let col of searchKeys" [value]="col.key">
+            {{ col.title }}
+          </option>
+        </select>
+        <select [(ngModel)]="direction" class="form-select mt-2">
+          <option value="">rendeezés iránya</option>
+          <option value="increasing">Növekvő</option>
+          <option value="decreasing">Csökkenő</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<button class="btn card__shadow">
+  <a class="" routerLink="/editor/0">Új felhő</a>
+</button>
+
+
 <div class="row py-4 ">
   <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 w-20 my-2 card-group d-flex justify-content-center"
-    *ngFor="let cloudItem of cloudList$ | async | filter:phrase:filterKey | paginate: { itemsPerPage: 20, currentPage: p }">
+    *ngFor="let cloudItem of cloudList$ | async | filter:phrase:filterKey | sorter:sorterKey:direction | paginate: { itemsPerPage: 20, currentPage: p }">
     <app-card [cloud]="cloudItem"></app-card>
   </div>
 </div>

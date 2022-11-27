@@ -1,0 +1,11 @@
+@use "../../../styles.scss";
+
+.form-select {
+  border-radius: 5px 0 0 5px;
+}
+
+.card__shadow {
+  box-shadow: 0px 20px 30px -20px;
+  border: 1px solid styles.$base-color;
+  border-top: 3px solid styles.$base-color;
+}

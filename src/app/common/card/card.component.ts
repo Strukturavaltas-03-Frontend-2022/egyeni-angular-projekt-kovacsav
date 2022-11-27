@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Cloud } from 'src/app/model/cloud';
 
 @Component({
@@ -14,9 +15,18 @@ export class CardComponent implements OnInit {
 
   //modalTarget: string = '#' + this.cloud.id;
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }
 
+  onSelectCloud(cloud: Cloud): void {
+    this.router.navigate(['/', 'editor', cloud.id]);
+  }
+
+  onDeleteCloud(cloud: Cloud): void {
+
+  }
 }

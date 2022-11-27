@@ -18,7 +18,7 @@ const routes: Routes = [
     component: ListComponent,
   },
   {
-    path: 'editor',
+    path: 'editor/:id',
     component: EditorComponent,
   },
 ];

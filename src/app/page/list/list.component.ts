@@ -11,7 +11,7 @@ import { ConfigService } from 'src/app/service/config.service';
 })
 export class ListComponent implements OnInit {
 
-  cloudList$: Observable<Cloud[]> = this.cloudService.getAll();
+  cloudList$: Observable<Cloud[]> = this.cloudService.list$;
 
   searchKeys: any[] = this.keyService.keys;
 
@@ -21,12 +21,16 @@ export class ListComponent implements OnInit {
 
   p: number = 1;
 
+  sorterKey: string = 'id';
+  direction: string = 'increasing';
+
   constructor(
     private cloudService: CloudService,
     private keyService: ConfigService
   ) { }
 
   ngOnInit(): void {
+    this.cloudService.getAll();
   }
 
 }
