@@ -1,8 +1,13 @@
+<h1 class="text-center my-4">Felhők Synop kód szerint</h1>
+
 <div class="row mx-auto">
-  <div class="col-12 my-2">
+  <div class="col-12 col-md-10 offset-md-1 my-0">
     <!-- <input [(ngModel)]="phrase" class="form-control" type="text"> -->
     <div class="input-group mb-3">
-      <div class="">
+      <p class="col-12 col-md-2 mt-3 text-center">
+        Szűrés
+      </p>
+      <div class="col-12 col-md-4 me-md-1">
         <select [(ngModel)]="filterKey" class="form-select mt-2">
           <option value="">szűrés minden mezőben</option>
           <option *ngFor="let col of searchKeys" [value]="col.key">
@@ -10,43 +15,52 @@
           </option>
         </select>
       </div>
-      <input [(ngModel)]="phrase" class="form-control ml-3 mt-2" type="text" placeholder="szűrő kifejezés">
-    </div>
-  </div>
-</div>
-
-<div class="row mx-auto">
-  <div class="col-12 my-2">
-    <div class="input-group mb-3">
-      <p class="m-3">
-        Rendezés
-      </p>
-      <div class="">
-        <select [(ngModel)]="sorterKey" class="form-select mt-2">
-          <option value=""></option>
-          <option *ngFor="let col of searchKeys" [value]="col.key">
-            {{ col.title }}
-          </option>
-        </select>
-        <select [(ngModel)]="direction" class="form-select mt-2">
-          <option value="">rendeezés iránya</option>
-          <option value="increasing">Növekvő</option>
-          <option value="decreasing">Csökkenő</option>
-        </select>
+      <div class="col-12 col-md-4 ms-md-1">
+        <input [(ngModel)]="phrase" class="form-control ml-3 mt-2" type="text" placeholder="szűrő kifejezés">
       </div>
     </div>
   </div>
 </div>
 
-<button class="btn card__shadow">
-  <a class="" routerLink="/editor/0">Új felhő</a>
-</button>
+<div class="row mx-auto">
+  <div class="col-12 col-lg-8 offset-lg-2 my-0">
+    <div class="input-group mb-3 d-flex">
+      <p class="col-12 col-md-2 mt-3 text-center">
+        Rendezés
+      </p>
+
+        <div class="col-6 col-md-4 px-1">
+          <select [(ngModel)]="sorterKey" class="form-select mt-2">
+            <option value=""></option>
+            <option *ngFor="let col of searchKeys" [value]="col.key">
+              {{ col.title }}
+            </option>
+          </select>
+        </div>
+
+        <div class="col-6 col-md-4 px-1">
+          <select [(ngModel)]="direction" class="form-select mt-2">
+            <option value="">rendezés iránya</option>
+            <option value="increasing">Növekvő sorrend</option>
+            <option value="decreasing">Csökkenő sorrend</option>
+          </select>
+        </div>
+
+      <div class="col-12 col-md-2 d-flex justify-content-center mt-3 mt-md-0">
+        <button class="btn card__shadow my-2">
+          <a class="" routerLink="/editor/0">Új felhő</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <div class="row py-4 ">
   <div class="col-xl-2 col-lg-4 col-md-6 col-sm-12 w-20 my-2 card-group d-flex justify-content-center"
     *ngFor="let cloudItem of cloudList$ | async | filter:phrase:filterKey | sorter:sorterKey:direction | paginate: { itemsPerPage: 20, currentPage: p }">
-    <app-card [cloud]="cloudItem"></app-card>
+    <app-card [cloud]="cloudItem" (onDelete)="onDelete($event)"></app-card>
   </div>
 </div>
 

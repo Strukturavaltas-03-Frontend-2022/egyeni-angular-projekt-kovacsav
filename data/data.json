@@ -599,6 +599,42 @@
       "codeLow": 0,
       "codeMiddle": 0,
       "codeHigh": 9
+    },
+    {
+      "id": 51,
+      "name": "Cirrocumulus",
+      "level": "Magas szintű",
+      "description": "A bárányfelhő vékony, önárnyékot nem adó felhőpadokból, felhőlepelből állnak, amelyek szemcsés elemekből épülnek fel. A szemcsék egybeolvadhatnak, vagy elkülönülhetnek egymástól, többé-kevésbé szabályos elrendeződésűek. Igen apró felhőelemek alkotják, amelyeknek látszólagos szélessége 1°-nál kisebb. Tipikus megjelenési formája olyan, mintha sok száz apró, fehér gombostűfejet szórtunk volna szét az égbolton.",
+      "precipitation": false,
+      "image_small": "/assets/img/cc_9_2_s.jpg",
+      "image_large": "/assets/img/cc_9_2_l.jpg",
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 9
+    },
+    {
+      "id": 52,
+      "name": "Cirrocumulus",
+      "level": "Magas szintű",
+      "description": "A bárányfelhő vékony, önárnyékot nem adó felhőpadokból, felhőlepelből állnak, amelyek szemcsés elemekből épülnek fel. A szemcsék egybeolvadhatnak, vagy elkülönülhetnek egymástól, többé-kevésbé szabályos elrendeződésűek. Igen apró felhőelemek alkotják, amelyeknek látszólagos szélessége 1°-nál kisebb. Tipikus megjelenési formája olyan, mintha sok száz apró, fehér gombostűfejet szórtunk volna szét az égbolton.",
+      "precipitation": false,
+      "image_small": "/assets/img/cc_9_2_s.jpg",
+      "image_large": "/assets/img/cc_9_2_l.jpg",
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 9
+    },
+    {
+      "id": 53,
+      "name": "Cirrocumulus",
+      "level": "Magas szintű",
+      "description": "A bárányfelhő vékony, önárnyékot nem adó felhőpadokból, felhőlepelből állnak, amelyek szemcsés elemekből épülnek fel. A szemcsék egybeolvadhatnak, vagy elkülönülhetnek egymástól, többé-kevésbé szabályos elrendeződésűek. Igen apró felhőelemek alkotják, amelyeknek látszólagos szélessége 1°-nál kisebb. Tipikus megjelenési formája olyan, mintha sok száz apró, fehér gombostűfejet szórtunk volna szét az égbolton.",
+      "precipitation": false,
+      "image_small": "/assets/img/cc_9_2_s.jpg",
+      "image_large": "/assets/img/cc_9_2_l.jpg",
+      "codeLow": 0,
+      "codeMiddle": 0,
+      "codeHigh": 9
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
@@ -55,4 +55,13 @@ export class BaseService<T extends { [x: string]: any }> {
       }
     );
   }
+
+  create(entity: T): Observable<T> {
+    return this.http.post<T>(`${this.apiUrl}${this.entityName}`, entity);
+  }
+
+  update(entity: T, id: string): Observable<T> {
+    return this.http.patch<T>(`${this.apiUrl}${this.entityName}/${id}`, entity);
+  }
+
 }

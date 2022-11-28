@@ -21,8 +21,8 @@ export class Cloud {
   level: string = '';
   description: string = '';
   precipitation: boolean = false;
-  image_small: string = '';
-  image_large: string = '';
+  image_small?: string = '';
+  image_large?: string = '';
   codeLow: number | string = 0;
   codeMiddle: number | string = 0;
   codeHigh: number | string = 0;

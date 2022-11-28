@@ -24,6 +24,10 @@ export class ListComponent implements OnInit {
   sorterKey: string = 'id';
   direction: string = 'increasing';
 
+  selectedCloudId: number = -1;
+
+  selectedCloudForDelete: Cloud = new Cloud;
+
   constructor(
     private cloudService: CloudService,
     private keyService: ConfigService
@@ -33,4 +37,16 @@ export class ListComponent implements OnInit {
     this.cloudService.getAll();
   }
 
+  onSelectForDelete(cloud: Cloud): void {
+    this.selectedCloudForDelete = cloud;
+  }
+
+  onDelete(cloud: Cloud): void {
+    this.cloudService.delete(cloud.id);
+    /*.subscribe(
+      () => this.cloudList$ = this.cloudService.list$
+    );*/
+    this.cloudList$ = this.cloudService.list$
+    //this.selectedCloudId = 0;
+  }
 }

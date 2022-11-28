@@ -1,78 +1,151 @@
 <h1 class="text-center my-5">Felhő szerkesztő</h1>
 
-<div class="row mt-3" *ngIf="cloud$ | async as cloud">
+<div class="row mt-3 col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2" *ngIf="cloud$ | async as cloud">
   <div class="">
-
-    <form #cloudEditorForm="ngForm" (ngSubmit)="onUpdate(cloud)" class="mx-auto">
+    <form
+      #cloudEditorForm="ngForm"
+      (ngSubmit)="onUpdate(cloud)"
+      class="mx-auto"
+    >
       <div class="row mb-5">
-        <label for="name" class="col-sm-2 col-form-label">Név</label>
+        <label for="name" class="col-sm-2 col-form-label">
+          <b>Név</b>
+        </label>
         <div class="col-sm-10">
-          <input name="name" [(ngModel)]="cloud.name" type="text" class="form-control" pattern="^[A-Ű][A-Űa-Ű .]{4,24}$"
-            required>
-          <div *ngIf="cloudEditorForm.controls['name']?.invalid" class="error-message">
+          <input
+            name="name"
+            [(ngModel)]="cloud.name"
+            type="text"
+            class="form-control"
+            pattern="^[A-Ű][A-Űa-Ű .]{4,24}$"
+            required
+          />
+          <div
+            *ngIf="cloudEditorForm.controls['name']?.invalid"
+            class="error-message"
+          >
             A név legalább 5 karakter hosszú legyen!
           </div>
         </div>
       </div>
 
       <div class="row mb-5">
-        <label for="description" class="col-sm-2 col-form-label">Leírás</label>
+        <label for="description" class="col-sm-2 col-form-label">
+          <b>Leírás</b>
+        </label>
         <div class="col-sm-10">
-          <textarea name="description" class="form-control" required [(ngModel)]="cloud.description"
-            pattern=".{5,1000}"></textarea>
+          <textarea
+            name="description"
+            class="form-control"
+            required
+            [(ngModel)]="cloud.description"
+            pattern=".{5,1000}"
+          ></textarea>
 
-          <div *ngIf="cloudEditorForm.controls['description']?.invalid" class="error-message">
+          <div
+            *ngIf="cloudEditorForm.controls['description']?.invalid"
+            class="error-message"
+          >
             A leírás legalább 5 karakter hosszú legyen!
           </div>
         </div>
       </div>
 
       <div class="row mb-5">
-        <label for="category" class="col-sm-2 col-form-label">Kis kép</label>
+        <label for="category" class="col-sm-2 col-form-label">
+          <b>Kis kép</b>
+        </label>
         <div class="col-sm-10">
-          <input name="category" [(ngModel)]="cloud.image_small" type="text" class="form-control" required>
-          <div *ngIf="cloudEditorForm.controls['category']?.invalid" class="error-message">
+          <input
+            name="category"
+            [(ngModel)]="cloud.image_small"
+            type="text"
+            class="form-control"
+            required
+          />
+          <div
+            *ngIf="cloudEditorForm.controls['category']?.invalid"
+            class="error-message"
+          >
             Adjon meg képet!
           </div>
         </div>
       </div>
       <div class="row mb-5">
-        <label for="category" class="col-sm-2 col-form-label">Nagy kép</label>
+        <label for="category" class="col-sm-2 col-form-label">
+          <b>Nagy kép</b>
+        </label>
         <div class="col-sm-10">
-          <input name="category" [(ngModel)]="cloud.image_large" type="text" class="form-control" required>
-          <div *ngIf="cloudEditorForm.controls['category']?.invalid" class="error-message">
+          <input
+            name="category"
+            [(ngModel)]="cloud.image_large"
+            type="text"
+            class="form-control"
+            required
+          />
+          <div
+            *ngIf="cloudEditorForm.controls['category']?.invalid"
+            class="error-message"
+          >
             Adjon meg képet!
           </div>
         </div>
       </div>
       <div class="row mb-5">
-        <label for="category" class="col-sm-2 col-form-label">Csapadékot adhat?</label>
+        <label for="category" class="col-sm-2 col-form-label">
+          <b>Csapadékot adhat?</b>
+        </label>
         <div class="col-sm-10">
-          <input name="prec" [(ngModel)]="cloud.precipitation" type="checkbox" class="form-check-input">
+          <input
+            name="prec"
+            [(ngModel)]="cloud.precipitation"
+            type="checkbox"
+            class="form-check-input"
+          />
         </div>
       </div>
 
       <div class="form-group">
         <fieldset class="row mb-3">
-          <legend class="col-form-label col-sm-2 pt-0">Magassági szint</legend>
+          <legend class="col-form-label col-sm-2 pt-0">
+            <b>Magassági szint</b>
+          </legend>
           <div class="col-sm-10">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Alacsony szintű"
-                [(ngModel)]="cloud.level">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios1"
+                value="Alacsony szintű"
+                [(ngModel)]="cloud.level"
+              />
               <label class="form-check-label" for="gridRadios1">
                 Alacsony szintű
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Közepes szintű"
-                [(ngModel)]="cloud.level">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios2"
+                value="Közepes szintű"
+                [(ngModel)]="cloud.level"
+              />
               <label class="form-check-label" for="gridRadios2">
                 Közepes szintű
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="Magas szintű"
-                [(ngModel)]="cloud.level">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios3"
+                value="Magas szintű"
+                [(ngModel)]="cloud.level"
+              />
               <label class="form-check-label" for="gridRadios3">
                 Magas szintű
               </label>
@@ -82,36 +155,69 @@
       </div>
 
       <div class="form-group">
-        <p>Synop kód</p>
+        <p><b>Synop kód</b></p>
         <fieldset>
           <div class="row mb-3">
-            <label for="category" class="col-sm-2 col-form-label">C<sub>L</sub></label>
-            <div class="col-sm-10">
-              <input name="codeLow" [(ngModel)]="cloud.codeLow" type="text" class="form-control" pattern="^[0-9/]{1,1}$"
-                required>
-              <div *ngIf="cloudEditorForm.controls['codeLow']?.invalid" class="error-message">
+            <label for="category" class="col-sm-2 col-form-label">
+              <b>C<sub>L</sub></b>
+            </label>
+            <div class="col-3 col-md-2">
+              <input
+                name="codeLow"
+                [(ngModel)]="cloud.codeLow"
+                type="text"
+                class="form-control"
+                pattern="^[0-9/]{1,1}$"
+                required
+              />
+              <div
+                *ngIf="cloudEditorForm.controls['codeLow']?.invalid"
+                class="error-message"
+              >
                 Adjon meg helyes kódot (0-9 vagy /)!
               </div>
             </div>
           </div>
 
           <div class="row mb-3">
-            <label for="category" class="col-sm-2 col-form-label">C<sub>M</sub></label>
-            <div class="col-sm-10">
-              <input name="codeMiddle" [(ngModel)]="cloud.codeMiddle" type="text" class="form-control"
-                pattern="^[0-9/]{1,1}$" required>
-              <div *ngIf="cloudEditorForm.controls['codeMiddle']?.invalid" class="error-message">
+            <label for="category" class="col-sm-2 col-form-label">
+              <b>C<sub>M</sub></b>
+            </label>
+            <div class="col-3 col-md-2">
+              <input
+                name="codeMiddle"
+                [(ngModel)]="cloud.codeMiddle"
+                type="text"
+                class="form-control"
+                pattern="^[0-9/]{1,1}$"
+                required
+              />
+              <div
+                *ngIf="cloudEditorForm.controls['codeMiddle']?.invalid"
+                class="error-message"
+              >
                 Adjon meg helyes kódot (0-9 vagy /)!
               </div>
             </div>
           </div>
 
           <div class="row mb-3">
-            <label for="category" class="col-sm-2 col-form-label">C<sub>H</sub></label>
-            <div class="col-sm-10">
-              <input name="codeHigh" [(ngModel)]="cloud.codeHigh" type="text" class="form-control"
-                pattern="^[0-9/]{1,1}$" required>
-              <div *ngIf="cloudEditorForm.controls['codeHigh']?.invalid" class="error-message">
+            <label for="category" class="col-sm-2 col-form-label">
+              <b>C<sub>H</sub></b>
+            </label>
+            <div class="col-3 col-md-2">
+              <input
+                name="codeHigh"
+                [(ngModel)]="cloud.codeHigh"
+                type="text"
+                class="form-control"
+                pattern="^[0-9/]{1,1}$"
+                required
+              />
+              <div
+                *ngIf="cloudEditorForm.controls['codeHigh']?.invalid"
+                class="error-message"
+              >
                 Adjon meg helyes kódot (0-9 vagy /)!
               </div>
             </div>
@@ -120,8 +226,13 @@
       </div>
 
       <div class="mt-3 d-flex justify-content-center">
-        <button [disabled]="cloudEditorForm.invalid" class="btn btn-primary" type="submit">
-          <i class="fa fa-save"></i> update cloud </button>
+        <button
+          [disabled]="cloudEditorForm.invalid"
+          class="btn btn-primary"
+          type="submit"
+        >
+          <i class="fa fa-save"></i> Mentés
+        </button>
       </div>
     </form>
   </div>

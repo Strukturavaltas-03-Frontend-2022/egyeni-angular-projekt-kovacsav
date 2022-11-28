@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { Cloud } from 'src/app/model/cloud';
 
@@ -9,9 +9,13 @@ import { Cloud } from 'src/app/model/cloud';
 })
 export class CardComponent implements OnInit {
 
-  @Input() cloud: Cloud = new Cloud;
+  @Input() cloud: Cloud = new Cloud();
+
+  @Output() onDelete = new EventEmitter<Cloud>();
 
   indexArray: number[] = [0, 1, 2, 3, 4]
+
+  selectedCloudForDelete: Cloud = new Cloud;
 
   //modalTarget: string = '#' + this.cloud.id;
 
@@ -26,7 +30,13 @@ export class CardComponent implements OnInit {
     this.router.navigate(['/', 'editor', cloud.id]);
   }
 
-  onDeleteCloud(cloud: Cloud): void {
+  onSelectForDelete(cloud: Cloud): void {
+    this.selectedCloudForDelete = cloud;
+    console.log(cloud);
+  }
 
+  onDeleteCloud(): void {
+    this.onDelete.emit(this.selectedCloudForDelete);
+    console.log(this.selectedCloudForDelete);
   }
 }

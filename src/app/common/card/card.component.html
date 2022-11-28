@@ -36,7 +36,7 @@
     <button class="btn me-md-2 btn__edit" (click)="onSelectCloud(cloud)">
       <i class="fa fa-pencil text-white"></i>
     </button>
-    <button class="btn bg-danger" (click)="onDeleteCloud(cloud)">
+    <button class="btn bg-danger" (click)="onSelectForDelete(cloud)" data-toggle="modal" data-target="#staticBackdrop">
       <i class="fa fa-trash text-white"></i>
     </button>
   </div>
@@ -66,6 +66,32 @@
           }}
           C<sub>H</sub>={{ cloud.codeHigh }}
         </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delete modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">
+          Felhő törlése
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Biztosan véglegesen törölni akarja a felhőt?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Mégsem</button>
+        <button type="button" class="btn btn-primary" (click)="onDeleteCloud()" data-dismiss="modal">Igen, biztosan</button>
       </div>
     </div>
   </div>
