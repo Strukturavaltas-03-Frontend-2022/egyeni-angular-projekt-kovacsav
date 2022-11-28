@@ -55,13 +55,25 @@ export class BaseService<T extends { [x: string]: any }> {
       }
     );
   }
-
-  create(entity: T): Observable<T> {
-    return this.http.post<T>(`${this.apiUrl}${this.entityName}`, entity);
+  /*
+    create(entity: T): Observable<T> {
+      return this.http.post<T>(`${this.apiUrl}${this.entityName}`, entity);
+    }
+  */
+  create(entity: T): void {
+    this.http.post<T>(`${this.apiUrl}${this.entityName}`, entity).subscribe(
+      () => {
+        this.getAll()
+      }
+    );
   }
 
-  update(entity: T, id: string): Observable<T> {
-    return this.http.patch<T>(`${this.apiUrl}${this.entityName}/${id}`, entity);
+  update(entity: T): void {
+    this.http.patch<T>(`${this.apiUrl}${this.entityName}/${entity['id']}`, entity).subscribe(
+      () => {
+        this.getAll()
+      }
+    );
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { Cloud } from 'src/app/model/cloud';
 import { CloudService } from 'src/app/service/cloud.service';
@@ -15,7 +15,8 @@ export class EditorComponent implements OnInit {
 
   constructor(
     private cloudService: CloudService,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -34,7 +35,13 @@ export class EditorComponent implements OnInit {
   }
 
   onUpdate(cloud: Cloud): void {
-
+    if (cloud.id === 0) {
+      this.cloudService.create(cloud);
+    }
+    else {
+      this.cloudService.update(cloud);
+    }
+    this.router.navigate(['/', 'list']);
   }
 }
 

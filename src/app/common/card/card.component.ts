@@ -32,11 +32,9 @@ export class CardComponent implements OnInit {
 
   onSelectForDelete(cloud: Cloud): void {
     this.selectedCloudForDelete = cloud;
-    console.log(cloud);
   }
 
-  onDeleteCloud(): void {
-    this.onDelete.emit(this.selectedCloudForDelete);
-    console.log(this.selectedCloudForDelete);
+  onDeleteCloud(cloud: Cloud): void {
+    this.onDelete.emit(cloud);
   }
 }

@@ -1,4 +1,4 @@
-@use '../../../styles.scss';
+@use "../../../styles.scss";
 
 .card {
   max-width: 180px;
@@ -44,11 +44,11 @@
   min-height: 8em;
 }
 
-.modal-footer{
+.cloud__mmodal {
   background-color: styles.$base-color;
 }
 
-.btn__edit{
+.btn__edit {
   background-color: styles.$base-color;
   margin-right: 5px;
 }
