@@ -623,18 +623,6 @@
       "codeLow": 0,
       "codeMiddle": 0,
       "codeHigh": 9
-    },
-    {
-      "id": 53,
-      "name": "hgfnjgn",
-      "level": "Közepes szintű",
-      "description": "gfnngfngfngf",
-      "precipitation": false,
-      "image_small": "",
-      "image_large": "",
-      "codeLow": 0,
-      "codeMiddle": "3",
-      "codeHigh": 0
     }
   ]
 }
