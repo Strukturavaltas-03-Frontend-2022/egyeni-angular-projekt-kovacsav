@@ -1,21 +1,24 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand mt-3" routerLink="/">
-    <p class="brand__logo">
-      Felhőatlasz
-    </p>
-  </a>
-  <div class="d-flex justify-content-center mx-5">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon text-white"></span>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand mt-3" routerLink="/">
+      <p class="brand__logo">
+        Felhőatlasz
+      </p>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
           aria-current="page" routerLink="/home">Kezdőlap</a>
-        <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
           aria-current="page" routerLink="/list">Felhők</a>
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
